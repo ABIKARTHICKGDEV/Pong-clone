@@ -1,47 +1,72 @@
 # 🏓 Pong Clone
 
-> A classic Pong Clone developed in Unity.
+A classic Pong Clone developed in **Unity** as part of my game development learning journey. Originally created on **12 December 2024**, this project has been revisited and polished to improve the gameplay experience, project structure, and mobile support.
 
 ![Unity](https://img.shields.io/badge/Engine-Unity-black?logo=unity)
 ![Language](https://img.shields.io/badge/Language-C%23-purple)
-![Platform](https://img.shields.io/badge/Platform-PC%20%7C%20Web-blue)
+![Platform](https://img.shields.io/badge/Platform-PC%20%7C%20WebGL%20%7C%20Android-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ---
 
 ## 📖 Overview
 
-Pong Clone is a recreation of the iconic arcade game built as part of my Unity learning journey. The project focuses on implementing the core mechanics of Pong while gaining hands-on experience with Unity, C#, physics, UI systems, and game flow management.
+Pong Clone recreates the iconic arcade game while focusing on the core mechanics of gameplay programming. The project was built to strengthen my understanding of Unity, C#, physics, collision handling, UI systems, and game state management.
 
-This project helped strengthen my understanding of gameplay programming and served as one of my early milestones in game development.
+As part of rebuilding my portfolio, I revisited this project to refactor the code, improve the controls, and make it playable on both desktop and mobile browsers.
 
 **Created:** 12 December 2024
 
 ---
 
-## 🎮 Gameplay
-
-Players control a paddle and compete to keep the ball in play while attempting to score against the opponent.
-
-### Features
+## 🎮 Features
 
 - 🏓 Classic Pong gameplay
-- 🎯 Ball physics and collision system
-- 🎮 Paddle movement controls
-- 📊 Score tracking
-- 🔄 Round reset system
-- 🖥️ Simple UI
-- ⚡ Fast-paced arcade gameplay
+- 🤖 Player vs AI opponent
+- 🎯 Ball physics & collision handling
+- 📊 Score tracking system
+- 🎵 Background music & sound effects
+- 🖥️ Keyboard controls
+- 📱 Smooth drag controls for Android
+- 🌐 Mobile browser (WebGL) support
+- 🏆 Win & Lose game states
 
 ---
 
-## 📸 Screenshots
+## 📸 Gameplay
 
-> *(Add your gameplay screenshots here.)*
+### Gameplay
 
-| Gameplay | Scoring | Main Game |
-|----------|----------|-----------|
-| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+![Gameplay](Images/Gameplay1.png)
+
+### Mobile Controls
+
+![Gameplay](Images/Gameplay2.png)
+
+### Win Screen
+
+![Win Screen](Images/WinMenu.png)
+
+---
+
+## 📂 Project Structure
+
+```
+Assets
+└── Scripts
+    ├── Ball.cs
+    ├── DragInput.cs
+    ├── LevelManager.cs
+    ├── MusicManager.cs
+    ├── playercontroller1.cs
+    └── ScoreManager.cs
+
+Images
+├── Gameplay1.png
+├── Gameplay2.png
+├── Logo.png
+└── WinMenu.png
+```
 
 ---
 
@@ -53,48 +78,47 @@ Players control a paddle and compete to keep the ball in play while attempting t
 
 ---
 
-## 📂 Repository Structure
+## 📚 What I Learned
 
-```
-Assets/
-├── Scripts/
-├── Scenes/
-├── Prefabs/
-├── Materials/
-├── Sprites/
-└── UI/
-
-ProjectSettings/
-Packages/
-```
-
----
-
-## 🎯 Learning Objectives
-
-During this project I practiced:
+During this project I gained practical experience with:
 
 - Unity fundamentals
 - C# scripting
-- Physics interactions
+- 2D Physics
 - Collision detection
 - UI programming
-- Game state management
-- Scene organization
-- Gameplay logic implementation
+- Scene Management
+- AI paddle behaviour
+- Mobile touch input
+- Game architecture improvements
+- Project refactoring
 
 ---
 
 ## 🚀 Future Improvements
 
-- Sound effects
-- Background music
-- AI difficulty levels
-- Main menu
-- Pause menu
+- Better AI difficulty
+- Pause Menu
+- Settings Menu
 - Visual polish
 - Particle effects
-- Better UI animations
+- Improved UI animations
+
+---
+
+## 🔗 Links
+
+### 🌐 Portfolio
+
+https://abikarthickgdev.github.io/GAMEDEV_PORTFOLIO/
+
+### 💻 GitHub Repository
+
+https://github.com/ABIKARTHICKGDEV/Pong-clone
+
+### 💼 LinkedIn Project Post
+
+https://www.linkedin.com/posts/abikarthick_unity-unity3d-gamedevelopment-ugcPost-7487058370764513280-D8Ie/
 
 ---
 
@@ -106,6 +130,4 @@ Game Developer | Unity Developer
 
 ---
 
-## 📜 License
-
-This project is created for learning and portfolio purposes.
+If you found this project interesting, consider giving the repository a ⭐.
