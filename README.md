@@ -35,17 +35,23 @@ As part of rebuilding my portfolio, I revisited this project to refactor the cod
 
 ## 📸 Gameplay
 
-### Gameplay
+### 🎮 Gameplay
 
-![Gameplay](Images/Gameplay1.png)
+<p align="center">
+  <img src="Images/Gameplay1.png" alt="Gameplay" width="100%">
+</p>
 
-### Mobile Controls
+### 📱 Mobile Controls
 
-![Gameplay](Images/Gameplay2.png)
+<p align="center">
+  <img src="Images/Gameplay2.png" alt="Mobile Controls" width="100%">
+</p>
 
-### Win Screen
+### 🏆 Win Screen
 
-![Win Screen](Images/WinMenu.png)
+<p align="center">
+  <img src="Images/WinMenu.png" alt="Win Screen" width="100%">
+</p>
 
 ---
 
